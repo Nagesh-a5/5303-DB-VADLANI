@@ -50,7 +50,7 @@ def csvFile():
             lastUpdate = gen.lastUpdate(date)
 
             write.writerow([str(count), email,
-            str(username), fName, lName, password, 
+            str(username), fName, lName, password,
             str(createTime), lastUpdate])
             count += 1
 
